@@ -5,3 +5,9 @@ lesson 2
 
 	git status
 	prints current status of git repo
+
+
+	git add 
+	adds a file to the 'staging area' which sits between the 'working directory' and the repository. The staging area gives us more control over what we commit to the repository at one time
+
+	
