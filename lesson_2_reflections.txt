@@ -1,0 +1,7 @@
+lesson 2
+
+	git init
+	initialises a new repo - does not commit
+
+	git status
+	prints current status of git repo
