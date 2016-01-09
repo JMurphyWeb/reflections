@@ -11,7 +11,12 @@ Lesson 1
 	git log --stat 
 	(includes statistics about the files that have changed)
 	press q to stop viewing git log output
+
+	git log -n 1
+	shows just 1 log
+	
 	git diff 1st_git_id 2nd_git_id
+	git diff no_arguments will compare the files in the working directory and the staging area
 	
 	git checkout git_repo_id
 	will 'detatch head' and allow us to inspect a previous commit.

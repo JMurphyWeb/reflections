@@ -10,4 +10,39 @@ lesson 2
 	git add 
 	adds a file to the 'staging area' which sits between the 'working directory' and the repository. The staging area gives us more control over what we commit to the repository at one time
 
+
+	git diff
+	Compare working directory with staging area
 	
+	git diff --stage
+	Compare staging area with repository files
+
+	git reset --hard
+	***CAREFUL***
+	deletes all changes in working directory and staging area. 
+
+branches
+
+	git log --graph --oneline
+	shows a graph of the branches and commits
+
+	git show commit_id
+	shows the difference between a commit and it's parent. 
+	Useful as git log will give commits in chronological order, even if they belong to different branches.
+
+	git checkout -b new_branch_name
+	creates a new branch and performs checkout onto that branch
+	Useful if we are creating a new feature, or we decide to keep some changes to a previous commit that would be lost if we checkout master.
+
+
+	git checkout master
+	git merge master branch_name_2
+	merges changes from branchname2 to master
+
+	git branch -d coins
+	deletes branch called coins. All commits are accessible through the commit chain so no need for the branch coins
+
+	Updating my branch so it has latest code from master, but stays as a seperate branch:
+	git checkout branch_name
+	git merge master branch_name
+
