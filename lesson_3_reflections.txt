@@ -1,1 +1,16 @@
-some reflection
+More prompts
+
+	git remote
+	
+	git remote add origin REPO_URL
+	
+	
+	git remote -v
+	(verbose) More detailed message with push and pull location
+
+	git push origin master
+
+
+	git pull origin master
+
+
