@@ -1,15 +1,16 @@
 More prompts
 
 	git remote
+	returns name of remote repository (remote being on Git - name usually origin)
+	If no remtoe repository present, nothing will be returned
 	
 	git remote add origin REPO_URL
-	
+	Sets up the remote repository to a previously created repository on github. 
 	
 	git remote -v
 	(verbose) More detailed message with push and pull location
 
 	git push origin master
-
 
 	git pull origin master
 
