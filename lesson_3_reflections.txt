@@ -5,13 +5,29 @@ More prompts
 	If no remtoe repository present, nothing will be returned
 	
 	git remote add origin REPO_URL
-	Sets up the remote repository to a previously created repository on github. 
-	
+	Sets up the remote repository to a previously created repository on github
+
 	git remote -v
 	(verbose) More detailed message with push and pull location
 
 	git push origin master
 
+	git branch -a
+	prints all branches including the copy origin/master
+
 	git pull origin master
+	fetches origin then merges with master
+
+	git fetch origin
+	updates all local copies of each branch of origin remote
+
+	git log origin/master
+	git diff origin/master master
+	(inspect differences between)
+
+	git merge master origin/master
+	merges changes from the now local (git fetch) origin/master branch into local master branch.
+
+
 
 
