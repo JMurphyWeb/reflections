@@ -28,6 +28,14 @@ More prompts
 	git merge master origin/master
 	merges changes from the now local (git fetch) origin/master branch into local master branch.
 
+	Pull Request
+	To suggest a change to a repository.
+	git checkout -b new-branch-name
+	git add file-name
+	git commit
+	git push origin new-branch-name
+	on github press create pull request, ensure base branch is the branch that we want to be changed
+	
 
 
 
